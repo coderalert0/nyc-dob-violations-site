@@ -1,0 +1,780 @@
+# NYC DOB Violations: NYC building compliance guides
+
+Independent app. Not affiliated with or endorsed by the NYC Department of Buildings or the City of New York. Checked against city sources on November 4, 2026.
+
+# NYC building compliance deadlines
+
+> The next major NYC building deadlines are December 31, 2026 for boiler inspections, elevator periodic and Category 1 tests, gas piping in Community Districts 4, 6, 8, 9 and 16, and Staten Island retaining walls. Bed bug reports are due December 1 to 31, and sub-cycle 10A facade reports are due February 21, 2027.
+
+Source page: https://coderalert0.github.io/nyc-dob-violations-site/nyc-building-compliance-deadlines.html
+Checked against city sources on November 4, 2026. Independent app. Not affiliated with or endorsed by the NYC Department of Buildings or the City of New York.
+
+## Upcoming deadlines by date
+
+This calendar lists each dated deadline from November 2026 onward. Each row links to a guide with the rules, penalties and official sources.
+
+| Deadline | Requirement | Applies to |
+|---|---|---|
+| December 1-31, 2026 | [Bed bug annual report](bed-bug-annual-report.html) | Rental residential multiple dwellings |
+| December 31, 2026 | [Boiler inspections](boiler-inspection-deadlines.html) | Low-pressure and high-pressure boilers |
+| December 31, 2026 | [Elevator periodic and Category 1](elevator-inspection-deadlines.html) | Elevators and other conveying systems |
+| December 31, 2026 | [Gas piping inspection](gas-piping-inspection-local-law-152.html) | Community Districts 4, 6, 8, 9 and 16 |
+| December 31, 2026 | [Retaining wall report](retaining-wall-inspection-local-law-37.html) | Staten Island |
+| December 31, 2026 | [Energy audit report (LL87)](energy-law-deadlines.html) | Covered buildings on a tax block ending in 6 |
+| January 15, 2027 | [Drinking water tank report](drinking-water-tank-inspection.html) | Tanks inspected in 2026 |
+| February 21, 2027 | [Facade report, sub-cycle 10A](facade-inspection-fisp-cycle-10.html) | Tax blocks ending in 4, 5, 6 or 9 |
+| May 1, 2027 | [Benchmarking (LL84) and emissions report (LL97)](energy-law-deadlines.html) | Covered buildings over 25,000 square feet |
+| October 31, 2027 | [Energy grade label (LL33)](energy-law-deadlines.html) | Buildings covered by Local Law 33 |
+| November 1, 2027 | [Cooling tower annual certification](cooling-tower-annual-certification.html) | Registered cooling towers |
+| December 31, 2027 | [Parking structure report](parking-structure-inspection-local-law-126.html) | Bronx, Queens and Staten Island |
+| December 31, 2027 | [Gas piping inspection](gas-piping-inspection-local-law-152.html) | Community Districts 11, 12, 14, 15 and 17 |
+| December 31, 2027 | [Retaining wall report](retaining-wall-inspection-local-law-37.html) | Queens |
+| February 21, 2028 | [Facade report, sub-cycle 10B](facade-inspection-fisp-cycle-10.html) | Tax blocks ending in 0, 7 or 8 |
+| December 31, 2028 | [Retaining wall report](retaining-wall-inspection-local-law-37.html) | Brooklyn |
+| December 31, 2028 | [Gas piping inspection](gas-piping-inspection-local-law-152.html) | Community Districts 1, 3 and 10 |
+| February 21, 2029 | [Facade report, sub-cycle 10C](facade-inspection-fisp-cycle-10.html) | Tax blocks ending in 1, 2 or 3 |
+
+The November 1, 2027 cooling tower date assumes the city keeps the November 1 date it set for 2026.
+
+## Requirements by how often they repeat
+
+| Requirement | How often | Rule of thumb |
+|---|---|---|
+| Boiler inspection | Every calendar year | Inspect by December 31, file within 14 days |
+| Elevator periodic | Every calendar year | Inspect by December 31, file within 14 days |
+| Elevator Category 1 | Every calendar year | Test by December 31, file within 21 days |
+| Elevator Category 5 | Every 5 years | Within 5 years of the month of the last test |
+| Facade (FISP) | Every 5 years | Buildings over six stories, by sub-cycle |
+| Gas piping (LL152) | Every 4 years | By Community District |
+| Parking structure (LL126) | Every 6 years today | Moves to every 4 years after January 1, 2028 |
+| Retaining wall (LL37) | Every 5 years | By borough |
+| Cooling tower certification | Every year | Due November 1 |
+| Bed bug report | Every year | File December 1 to 31 |
+| Drinking water tank | Every year | Inspect in the calendar year, report by January 15 |
+| Backflow device test | Every 12 months | From the last test |
+| Sprinkler and standpipe test | At least every 5 years | From the last test |
+| Benchmarking (LL84) | Every year | May 1 |
+| Emissions report (LL97) | Every year | May 1 |
+| Energy grade label (LL33) | Every year | Within 30 days after October 1 |
+| Energy audit (LL87) | Every 10 years | Year matches the last digit of the tax block |
+
+## Frequently asked questions
+
+### What is the most common NYC building deadline?
+
+December 31. Boiler inspections and elevator periodic and Category 1 tests all run on a January 1 to December 31 cycle, and gas piping, parking and retaining wall deadlines also fall on December 31 of their assigned year.
+
+### How do I know which sub-cycle my building is in?
+
+It depends on the requirement. Facades use the last digit of the tax block number. Gas piping uses the Community District. Parking structures use the borough and Community District. Retaining walls use the borough.
+
+### Does this calendar replace official city notices?
+
+No. It is an independent summary, checked against city sources on the date shown on this page. The city can change a rule or extend a deadline, so confirm with the source linked in each guide before you file.
+
+## Sources
+
+- [NYC DOB: Boiler Compliance](https://www.nyc.gov/site/buildings/safety/boiler-compliance.page)
+- [NYC DOB: Elevator Compliance](https://www.nyc.gov/site/buildings/safety/elevator-compliance.page)
+- [NYC DOB: Cycle 10 facade diagram](https://www.nyc.gov/assets/buildings/pdf/cycle10-diagram.pdf)
+- [NYC DOB: Gas Piping Inspection](https://www.nyc.gov/site/buildings/property-or-business-owner/gas-piping-inspections.page)
+- [NYC DOB: Parking Structures](https://www.nyc.gov/site/buildings/safety/parking-structure.page)
+- [NYC DOB: Retaining Wall](https://www.nyc.gov/site/buildings/safety/retaining-wall.page)
+- [NYC DOB: Deadlines for Sustainability Laws in 2026](https://www.nyc.gov/assets/buildings/pdf/sustain_dead-sn.pdf)
+- [NYC Health: Cooling Tower Annual Certification](https://www.nyc.gov/assets/doh/downloads/pdf/cd/cooling-tower-annual-certification.pdf)
+- [NYC HPD: Bedbugs](https://www.nyc.gov/site/hpd/services-and-information/bedbugs.page)
+- [NYC Health: Drinking Water Tank Inspection Reporting](https://www.nyc.gov/site/doh/business/permits-and-licenses/drinking-water-tank-inspection-reporting.page)
+
+---
+
+# NYC backflow, sprinkler and standpipe testing
+
+> NYC backflow prevention devices must be tested every 12 months by a New York State certified tester. Sprinkler and standpipe systems need tests at least once every five years, conducted before a Fire Department representative. These deadlines run from the last test, not a fixed calendar date.
+
+Source page: https://coderalert0.github.io/nyc-dob-violations-site/backflow-sprinkler-standpipe-testing.html
+Checked against city sources on November 4, 2026. Independent app. Not affiliated with or endorsed by the NYC Department of Buildings or the City of New York.
+
+## Test requirements at a glance
+
+| System | How often | Who is involved | Agency |
+|---|---|---|---|
+| Backflow prevention device | Every 12 months | New York State certified tester | Department of Environmental Protection (DEP) |
+| Sprinkler system | At least once every 5 years | Test conducted before a Fire Department representative | FDNY |
+| Standpipe system | At least once every 5 years | Hydrostatic pressure test | FDNY |
+| Fire department connections | At least once every 5 years | Hydrostatic test | FDNY |
+
+## Backflow prevention devices
+
+After a device is installed and passes its initial test, it must be tested every 12 months by a certified tester. DEP says failing to do the annual test can lead to fines or disconnection of water service.
+
+## Sprinkler and standpipe systems
+
+The NYC Fire Code requires the five-year tests above and says the test report must be kept for at least five years and be available to the Fire Department. Proposals to shorten the interval have been introduced in the City Council, so check whether the rule has changed.
+
+## Frequently asked questions
+
+### How often does a backflow preventer need testing in NYC?
+
+Every 12 months, by a New York State certified tester.
+
+### How often do sprinklers need a five-year test?
+
+At least once every five years, with a Fire Department representative present.
+
+### Do these deadlines fall on a fixed date?
+
+No. They count from the last test, so each building's date is different.
+
+## Sources
+
+- [NYC DEP: Backflow Prevention Devices](https://www.nyc.gov/site/dep/about/cross-connection-controls.page)
+- [NYC Fire Code Chapter 9: Fire Protection Systems](https://www.nyc.gov/assets/fdny/downloads/pdf/about/Chapter-09.pdf)
+
+---
+
+# NYC bed bug annual report
+
+> NYC property owners file the Bed Bug Annual Report with HPD between December 1 and December 31 each year. The report covers the previous year from November 1 through October 31. Filing is free, and it applies to owners of rental residential properties.
+
+Source page: https://coderalert0.github.io/nyc-dob-violations-site/bed-bug-annual-report.html
+Checked against city sources on November 4, 2026. Independent app. Not affiliated with or endorsed by the NYC Department of Buildings or the City of New York.
+
+## What the report covers
+
+| Detail | Answer |
+|---|---|
+| Filing window | December 1 to December 31 |
+| Period covered | November 1 through October 31 |
+| Filed with | NYC Department of Housing Preservation and Development (HPD) |
+| Cost | Free |
+
+## What you must report
+
+- The number of dwelling units
+- The number of units that had a bed bug infestation during the previous year, as reported or otherwise known to the owner
+- The number of units where eradication measures were used during the previous year
+- The number of those units that had an infestation after eradication measures were used
+
+## After you file
+
+The owner must either give a copy of the filing receipt to each tenant, at the start of a new lease and with each lease renewal, or post it in a prominent location in the building within 60 days of filing.
+
+The online application only accepts validly registered owners and managing agents of multiple dwellings, so the building's property registration must be current.
+
+## Frequently asked questions
+
+### When is the NYC bed bug report due?
+
+Between December 1 and December 31 each year, for the period from November 1 of the prior year through October 31 of the current year.
+
+### Does it cost anything to file?
+
+No. HPD says the filing is free. Be careful with companies that offer to file it for a fee.
+
+### What if my building had no bed bugs?
+
+The report still asks for your unit count and each infestation figure, so you report zero in those fields.
+
+## Sources
+
+- [NYC HPD: Bedbugs](https://www.nyc.gov/site/hpd/services-and-information/bedbugs.page)
+
+---
+
+# NYC boiler inspection deadlines
+
+> Every required NYC boiler inspection, low-pressure or high-pressure, must be performed between January 1 and December 31. The report is due in DOB NOW: Safety within 14 days of the inspection. Late reports are accepted until January 14 of the next year, with penalties.
+
+Source page: https://coderalert0.github.io/nyc-dob-violations-site/boiler-inspection-deadlines.html
+Checked against city sources on November 4, 2026. Independent app. Not affiliated with or endorsed by the NYC Department of Buildings or the City of New York.
+
+## Boiler deadlines at a glance
+
+| | Low-pressure boiler | High-pressure boiler |
+|---|---|---|
+| Inspection cycle | January 1 to December 31 | January 1 to December 31 |
+| Inspections per year | One | Two: one internal, one external |
+| Report due | 14 days after the inspection | 14 days after each inspection |
+| Last day for a late filing | January 14 of the next year | January 14 of the next year |
+| Who inspects | A DOB-licensed qualified installer or an authorized boiler insurance company | An authorized insurance company |
+
+For example, an inspection performed on December 31 must reach DOB by January 14.
+
+High-pressure internal and external inspections share the same calendar-year cycle. DOB says they should be performed about six months apart. Neither one has its own separate date.
+
+## Which low-pressure boilers need an annual inspection
+
+Annual inspections apply to H-stamped and E-stamped boilers, not HLW-stamped hot water heaters, in these property types:
+
+- Residential buildings with six or more families
+- Commercial and mixed-use buildings, regardless of boiler BTU capacity
+- Residential buildings classified as Single Room Occupancy (SRO) dwellings
+
+These registered low-pressure boilers do not need an annual inspection:
+
+- Boilers in residential buildings with 5 families or fewer
+- A single boiler located within a single dwelling unit that supplies heat only to that unit
+
+## Penalties
+
+| Violation | Low-pressure | High-pressure |
+|---|---|---|
+| Late filing | At least $50 per month per boiler, up to $600 per boiler | At least $50 per month, per boiler, per inspection type, up to $600 per boiler, per inspection type |
+| Failure to file | At least $1,000 per boiler | At least $1,000 per boiler, per inspection type |
+
+A report not filed within the late filing period is deemed expired, and DOB will not accept it.
+
+## If the inspection finds defects
+
+Defects must be corrected within 90 days of the initial inspection date. A subsequent inspection report must then be filed within 14 days of the subsequent inspection date. An affirmation of correction filed more than 104 calendar days from the initial inspection date is deemed expired, and the report is rejected.
+
+An owner or licensee may request up to two 45-day extensions of the subsequent inspection filing deadline. Each request must be filed no later than the current correction deadline.
+
+## Frequently asked questions
+
+### When is the NYC boiler inspection deadline?
+
+The inspection must happen by December 31 of the cycle year, and the report is due within 14 days of the inspection. The final date for a late filing is January 14 of the next year.
+
+### Do internal and external high-pressure inspections have different deadlines?
+
+No. Both must be completed in the same January 1 to December 31 cycle. DOB says they should be about six months apart, but neither has a separate fixed date.
+
+### Does a small residential building need a boiler inspection?
+
+Boilers in residential buildings with 5 families or fewer do not need the annual inspection. Commercial and mixed-use buildings do, regardless of BTU capacity.
+
+### What happens if I miss January 14?
+
+The report is deemed expired and DOB will not accept it. The owner is then liable for the failure-to-file penalty of at least $1,000 per boiler.
+
+## Sources
+
+- [NYC DOB: Boiler Compliance](https://www.nyc.gov/site/buildings/safety/boiler-compliance.page)
+- [1 RCNY 103-01: Low-pressure boilers](https://www.nyc.gov/assets/buildings/rules/1_RCNY_103-01.pdf)
+- [1 RCNY 103-05: High-pressure boilers](https://www.nyc.gov/assets/buildings/rules/1_RCNY_103-05.pdf)
+
+---
+
+# NYC cooling tower annual certification
+
+> Registered NYC cooling towers that operated during the year need an annual certification by November 1. Each piece of registered equipment needs its own certification, submitted online by the system permission owner through the NYC Cooling Tower Registration Portal. A health department inspection does not replace it.
+
+Source page: https://coderalert0.github.io/nyc-dob-violations-site/cooling-tower-annual-certification.html
+Checked against city sources on November 4, 2026. Independent app. Not affiliated with or endorsed by the NYC Department of Buildings or the City of New York.
+
+## What the certification must say
+
+The certification must state that the cooling tower has been inspected, tested, cleaned and disinfected in compliance with Section 17-194.1 of the Administrative Code and Chapter 8 of Title 24 of the Rules of the City of New York. It must also document any corrective actions taken.
+
+## How to submit it
+
+1. Sign in to your NYC Cooling Tower Registration Portal account and open My Homepage.
+2. Open the Equipment Page. Each piece of equipment has a registration number starting with the digit 1.
+3. Click Upload Documents, complete the form and click Submit.
+4. Keep the emailed receipt in your cooling tower records as proof of upload.
+5. Repeat for each piece of equipment.
+
+## If the tower did not operate
+
+| Situation | What to do |
+|---|---|
+| Did not operate, and is not decommissioned | Upload a statement of non-operation through the same steps |
+| Decommissioned, with Health Department email confirmation | No annual certification is needed |
+| Decommissioned, but the Health Department was not told | File a decommissioning form through the portal |
+
+## Other cooling tower requirements
+
+| Requirement | Timing |
+|---|---|
+| Legionella sampling | Monthly since May 8, 2026, with no more than 31 days between samples |
+| Reporting each sample date in the portal | Within five days of sample collection |
+| Hyperhalogenation | Between July 1 and August 31 each year |
+| Summertime Hyperhalogenation Declaration Form | Within 30 days of the procedure |
+| Keeping maintenance records | At least three years |
+
+## Frequently asked questions
+
+### When is the NYC cooling tower certification due?
+
+November 1. The city's notice for 2026 set the deadline at November 1, 2026 for all registered towers that operated in 2026.
+
+### Does a health department inspection count as the certification?
+
+No. The Health Department regularly inspects cooling tower systems, but the annual certification is a separate filing that the owner uploads through the portal.
+
+### Do I need a certification for each tower?
+
+Each piece of registered equipment in the system needs one. For more than one piece of equipment, repeat the submission for each.
+
+## Sources
+
+- [NYC Health: Cooling Tower Annual Certification notice](https://www.nyc.gov/assets/doh/downloads/pdf/cd/cooling-tower-annual-certification.pdf)
+- [NYC Health: Cooling Towers](https://www.nyc.gov/site/doh/business/permits-and-licenses/cooling-towers.page)
+- [Chapter 8 of Title 24 RCNY: Cooling Towers](https://www.nyc.gov/assets/doh/downloads/pdf/about/healthcode/health-code-chapter8.pdf)
+
+---
+
+# NYC drinking water tank inspection
+
+> Owners of NYC buildings that use tanks to store or pressurize drinking water must have them inspected at least once a year. The inspection and water quality sampling must happen between January 1 and December 31, and the certified water tank inspector must submit the report by January 15 of the next year.
+
+Source page: https://coderalert0.github.io/nyc-dob-violations-site/drinking-water-tank-inspection.html
+Checked against city sources on November 4, 2026. Independent app. Not affiliated with or endorsed by the NYC Department of Buildings or the City of New York.
+
+## Tank deadlines at a glance
+
+| Detail | Answer |
+|---|---|
+| Inspection and sampling | January 1 to December 31 |
+| Report due | January 15 of the next year |
+| Who submits it | Your certified water tank inspector |
+| Keep results for | At least five years |
+
+The inspection must cover both the tank and a bacteriological sample of the water.
+
+## Frequently asked questions
+
+### When is the NYC water tank report due?
+
+By January 15 of the year after the inspection. A 2026 inspection is due by January 15, 2027.
+
+### Who submits the report?
+
+Your certified water tank inspector submits it to the Health Department.
+
+### How long do I keep the results?
+
+Building owners must keep inspection and water test results for at least five years.
+
+## Sources
+
+- [NYC Health: Drinking Water Tank Inspection Reporting](https://www.nyc.gov/site/doh/business/permits-and-licenses/drinking-water-tank-inspection-reporting.page)
+- [NYC Health: Water Systems](https://www.nyc.gov/site/doh/business/permits-and-licenses/drinking-water.page)
+
+---
+
+# NYC elevator inspection deadlines
+
+> NYC elevators need a periodic inspection and a Category 1 test every calendar year, between January 1 and December 31. Periodic reports are due within 14 days and Category 1 reports within 21 days. Category 5 tests are due within five years from the month of the last Category 5 test.
+
+Source page: https://coderalert0.github.io/nyc-dob-violations-site/elevator-inspection-deadlines.html
+Checked against city sources on November 4, 2026. Independent app. Not affiliated with or endorsed by the NYC Department of Buildings or the City of New York.
+
+## Elevator deadlines at a glance
+
+| | Periodic inspection | Category 1 test | Category 5 test |
+|---|---|---|---|
+| What it is | Annual visual inspection | Annual no-load safety test | Test with rated load and speed |
+| When | January 1 to December 31 | January 1 to December 31 | Within 5 years from the month of the last Category 5 test |
+| Report due | 14 days after the inspection | 21 days after the test | 21 days after the test |
+| Filings close | January 14 of the next year | January 21 of the next year | The 21st day of the month after the five-year anniversary |
+
+A periodic inspection must be at least three months after any Category 1 test or previous periodic inspection. The agency performing the periodic inspection cannot be affiliated with the agency performing maintenance on the device.
+
+The rule's definition of an elevator includes escalators, moving walkways, material lifts, vertical reciprocating conveyors, dumbwaiters and other conveying systems.
+
+## Penalties
+
+These penalties apply to owners of commercial buildings, mixed-use buildings and buildings with more than two residential units.
+
+| Violation | Periodic and Category 1 | Category 3 and 5 |
+|---|---|---|
+| Failure to file | $3,000 per elevator | $5,000 per elevator |
+| Late filing | $150 per month per elevator, up to $1,800 | $250 per month per elevator, up to $3,000 |
+
+## If the inspection finds defects
+
+Defects found in a Category 1 test or periodic inspection must be corrected within 90 days of the initial inspection, and the correction filed within 14 days of the correction date. Defects not corrected and filed within 104 days of the initial inspection result in Failure to Correct violations.
+
+## Frequently asked questions
+
+### When is the NYC elevator inspection deadline?
+
+Periodic inspections and Category 1 tests must be done by December 31 each year. Periodic filings close January 14 of the next year and Category 1 filings close January 21.
+
+### Is Category 1 due a year after the last test?
+
+No. Category 1 follows the calendar year, January 1 to December 31, regardless of the month of the last test. Category 5 is the test that counts from the month of the last one.
+
+### Can the periodic inspection and Category 1 test happen on the same day?
+
+Generally no. The periodic inspection must be at least three months from any Category 1 test. The rule lets private residence elevators do both on the same date.
+
+### Do removed elevators still need inspections?
+
+DOB may waive penalties with proof that a permit was issued for removal or dismantling and DOB signed off before the cycle began. Waivers also exist for some work in progress and for buildings ordered sealed or vacated by a government agency. Check the rule for the proof required.
+
+## Sources
+
+- [NYC DOB: Elevator Compliance](https://www.nyc.gov/site/buildings/safety/elevator-compliance.page)
+- [1 RCNY 103-02: Elevator inspections and tests](https://www.nyc.gov/assets/buildings/rules/1_RCNY_103-02.pdf)
+
+---
+
+# NYC energy law deadlines
+
+> Most NYC buildings over 25,000 square feet must benchmark energy use (LL84) and file an emissions report (LL97) by May 1 each year, then post an energy grade label (LL33) within 30 days after October 1. Buildings over 50,000 square feet also file an energy audit (LL87) every ten years, in the year matching the last digit of the tax block.
+
+Source page: https://coderalert0.github.io/nyc-dob-violations-site/energy-law-deadlines.html
+Checked against city sources on November 4, 2026. Independent app. Not affiliated with or endorsed by the NYC Department of Buildings or the City of New York.
+
+## Energy deadlines at a glance
+
+| Law | What is due | Covers | When |
+|---|---|---|---|
+| Local Law 84 | Benchmarking report | Buildings over 25,000 gross square feet | May 1 each year |
+| Local Law 97 | Annual emissions report | Most buildings over 25,000 square feet | May 1 each year |
+| Local Law 33 | Energy grade label posted near each public entrance | Buildings covered by Local Law 33 | Within 30 days after October 1 |
+| Local Law 87 | Energy Efficiency Report | Buildings over 50,000 gross square feet | December 31, every ten years |
+
+## Local Law 84 benchmarking
+
+Owners report the building's annual energy and water use through the EPA's benchmarking tool. Reports for calendar year 2025 were due May 1, 2026. DOB can extend a deadline by notice, as it did in 2025, so check the current year's notice.
+
+## Local Law 97 emissions reports
+
+Covered buildings file a report by May 1 of each year. For 2026, DOB's notice set the compliance report for May 1 and no later than June 30, and owners had until June 30 to apply for an extension to August 29.
+
+## Local Law 33 energy grades
+
+DOB issues the Building Energy Efficiency Rating label every October 1. Owners must post it in a conspicuous location near each public entrance within 30 days. For 2026, DOB stated the window as October 1 to October 31. A building that did not submit benchmarking information on time gets an F grade.
+
+## Local Law 87 energy audits
+
+Owners file an Energy Efficiency Report in the calendar year whose last digit matches the last digit of the building's tax block number, by December 31. A building on a block ending in 6 is due by December 31, 2026, and one ending in 7 by December 31, 2027.
+
+## Frequently asked questions
+
+### What is the deadline for NYC energy benchmarking?
+
+May 1 each year, for the previous calendar year's energy and water use.
+
+### When do I have to post my energy grade?
+
+Within 30 days after October 1 each year, so by October 31. The label stays up until October 1 of the next year.
+
+### Which year is my LL87 audit due?
+
+Match the last digit of your tax block number to the last digit of the year. Block 1236 is due in 2026 and 2036.
+
+### Do these laws apply to buildings under 25,000 square feet?
+
+LL84 and LL97 generally cover buildings over 25,000 square feet, with extra categories such as multiple buildings on one tax lot. Check the Covered Buildings List for your property.
+
+## Sources
+
+- [NYC DOB: Deadlines for Sustainability Laws in 2026](https://www.nyc.gov/assets/buildings/pdf/sustain_dead-sn.pdf)
+- [NYC DOB: LL84 Benchmarking](https://www.nyc.gov/site/buildings/codes/ll84-benchmarking-law.page)
+- [NYC DOB: LL33 Energy Grading](https://www.nyc.gov/site/buildings/codes/ll33-energy-grading.page)
+- [NYC DOB: Energy Audits and Retro-Commissioning](https://www.nyc.gov/site/buildings/codes/ll87-energy-audits-retro-commissioning.page)
+- [NYC DOB: LL97 Greenhouse Gas Emissions Reductions](https://www.nyc.gov/site/buildings/codes/ll97-greenhouse-gas-emissions-reductions.page)
+
+---
+
+# FISP Cycle 10 facade inspection deadlines
+
+> NYC buildings greater than six stories must file a facade report once every five years. In Cycle 10, the last digit of the tax block sets the deadline: blocks ending in 4, 5, 6 or 9 are due February 21, 2027, blocks ending in 0, 7 or 8 are due February 21, 2028, and blocks ending in 1, 2 or 3 are due February 21, 2029.
+
+Source page: https://coderalert0.github.io/nyc-dob-violations-site/facade-inspection-fisp-cycle-10.html
+Checked against city sources on November 4, 2026. Independent app. Not affiliated with or endorsed by the NYC Department of Buildings or the City of New York.
+
+## Cycle 10 filing windows
+
+| Sub-cycle | Tax block ends in | Window opens | Report due |
+|---|---|---|---|
+| 10A | 4, 5, 6 or 9 | February 21, 2025 | February 21, 2027 |
+| 10B | 0, 7 or 8 | February 21, 2026 | February 21, 2028 |
+| 10C | 1, 2 or 3 | February 21, 2027 | February 21, 2029 |
+
+The whole cycle runs from February 21, 2025 to February 20, 2030. Each building's window lasts two years, and the same pattern repeats every five years.
+
+The program is the Facade Inspection and Safety Program (FISP), also known as Local Law 11. A Qualified Exterior Wall Inspector (QEWI) performs the inspection and files the report.
+
+## Report ratings
+
+| Rating | Meaning |
+|---|---|
+| Safe | No repair or maintenance needed to keep the exterior structurally sound, and it will not become unsafe during the next five years |
+| SWARMP | Safe with a repair and maintenance program: safe at inspection, but needs repairs or maintenance during the next five years, and not less than one year |
+| Unsafe | Hazardous to people or property |
+
+Unsafe conditions must be corrected within 90 days of submitting the report. If the scope of the repairs makes that impossible, the QEWI must recommend a timeframe, and the owner is responsible for meeting it.
+
+## Penalties
+
+| Violation | Penalty |
+|---|---|
+| Failure to file | $5,000 per year after the end of the filing window |
+| Late filing | $1,000 per month from the day after the filing deadline |
+| Failure to correct an unsafe condition | $1,000 per month, plus a monthly charge per linear foot of sidewalk shed from year 2 |
+| SWARMP condition left unrepaired and refiled as unsafe | $2,000 |
+
+## Frequently asked questions
+
+### Which NYC buildings need a facade inspection?
+
+Buildings greater than six stories. The rule applies to all exterior walls and appurtenances on those buildings, with limited exceptions listed in 1 RCNY 103-04.
+
+### When is my facade report due?
+
+Find the last digit of your tax block number. Blocks ending in 4, 5, 6 or 9 are due February 21, 2027. Blocks ending in 0, 7 or 8 are due February 21, 2028. Blocks ending in 1, 2 or 3 are due February 21, 2029.
+
+### Does a report filed in Cycle 9 count for Cycle 10?
+
+No. A building must file at least once during each five-year cycle, so a late Cycle 9 report does not meet the Cycle 10 requirement, even if it is dated after Cycle 10 began.
+
+### What does SWARMP mean?
+
+Safe with a repair and maintenance program. The facade is safe at inspection but needs repairs or maintenance during the next five years.
+
+## Sources
+
+- [NYC DOB: Facade and Local Law](https://www.nyc.gov/site/buildings/safety/facade-local-law.page)
+- [NYC DOB: Cycle 10 sub-cycle diagram](https://www.nyc.gov/assets/buildings/pdf/cycle10-diagram.pdf)
+- [1 RCNY 103-04: Periodic inspection of exterior walls](https://www.nyc.gov/assets/buildings/rules/1_RCNY_103-04.pdf)
+
+---
+
+# Local Law 152 gas piping inspection schedule
+
+> NYC gas piping must be inspected at least once every four years, in a year set by the building's Community District. Districts 4, 6, 8, 9 and 16 are due by December 31, 2026, and districts 11, 12, 14, 15 and 17 by December 31, 2027. One- and two-family homes and other R-3 buildings are exempt.
+
+Source page: https://coderalert0.github.io/nyc-dob-violations-site/gas-piping-inspection-local-law-152.html
+Checked against city sources on November 4, 2026. Independent app. Not affiliated with or endorsed by the NYC Department of Buildings or the City of New York.
+
+## LL152 schedule
+
+| Sub-cycle | Community Districts | Cycle 2 | Cycle 3 |
+|---|---|---|---|
+| A | 1, 3, 10 | January 1 to December 31, 2024 | January 1 to December 31, 2028 |
+| B | 2, 5, 7, 13, 18 | January 1 to December 31, 2025 | January 1 to December 31, 2029 |
+| C | 4, 6, 8, 9, 16 | January 1 to December 31, 2026 | January 1 to December 31, 2030 |
+| D | 11, 12, 14, 15, 17 | January 1 to December 31, 2027 | January 1 to December 31, 2031 |
+
+The district numbers apply in every borough. For example, Community District 4 in Queens and Community District 4 in the Bronx are both in sub-cycle C.
+
+## Who needs the inspection
+
+Gas piping systems in all buildings must be inspected, except one- and two-family homes and other buildings classified in Occupancy Group R-3. A Licensed Master Plumber, or a qualified individual working for one, performs the inspection.
+
+Buildings with no gas piping system are exempt if the owner files a one-time certification from a utility company, a registered design professional or a licensed master plumber saying so.
+
+## Filing steps and timing
+
+| Step | Deadline |
+|---|---|
+| Inspector gives the owner the report and certification | 30 days after the inspection |
+| Owner files the certification of inspection with DOB | 60 days after the inspection |
+| Owner files that listed conditions were corrected | 120 days after the inspection |
+| Owner files the final correction, if more time was noted | 180 days after the inspection |
+
+A certification filed more than 60 days after the inspection does not count, and a new inspection is required.
+
+Owners who cannot get an inspection by the due date may receive a 180-day extension by notifying DOB and paying the filing fee.
+
+## Penalties
+
+Failure to file carries a civil penalty of $1,500 for a 3-family building and $5,000 for all other buildings. To resolve the violation, the owner must pay the penalty and file the certification.
+
+## Frequently asked questions
+
+### When is my gas piping inspection due?
+
+It depends on your Community District. Districts 4, 6, 8, 9 and 16 are due in 2026, districts 11, 12, 14, 15 and 17 in 2027, districts 1, 3 and 10 in 2028, and districts 2, 5, 7, 13 and 18 in 2029.
+
+### Do one- and two-family homes need LL152 inspections?
+
+No. One- and two-family homes and other buildings classified in Occupancy Group R-3 are exempt.
+
+### What if the inspection is done but I file late?
+
+A certification filed more than 60 days after the inspection does not satisfy the requirement, and a new inspection is required.
+
+### How do I find my Community District?
+
+DOB points owners to the NYC Department of City Planning website, where you can search your building's address.
+
+## Sources
+
+- [NYC DOB: Gas Piping Inspection](https://www.nyc.gov/site/buildings/property-or-business-owner/gas-piping-inspections.page)
+- [1 RCNY 103-10: Periodic inspection of gas piping systems](https://www.nyc.gov/assets/buildings/rules/1_RCNY_103-10.pdf)
+
+---
+
+# How to check NYC DOB violations by address
+
+> You can check NYC building violations for free through the Buildings Information System (BIS) and DOB NOW Public Portal for DOB records, HPD Online for housing violations, and the OATH summons finder for ECB summonses. Each searches by address or Building Identification Number (BIN), and each covers a different agency, so check them together.
+
+Source page: https://coderalert0.github.io/nyc-dob-violations-site/how-to-check-dob-violations.html
+Checked against city sources on November 4, 2026. Independent app. Not affiliated with or endorsed by the NYC Department of Buildings or the City of New York.
+
+## Where to look
+
+| Record type | Where to search |
+|---|---|
+| DOB violations and complaints | [Buildings Information System (BIS)](https://a810-bisweb.nyc.gov/bisweb/bispi00.jsp) |
+| DOB NOW filings and safety records | [DOB NOW Public Portal](https://a810-dobnow.nyc.gov/publish/Index.html) |
+| HPD housing violations and complaints | [HPD Online](https://hpdonline.nyc.gov/hpdonline/) |
+| OATH and ECB summonses | [OATH summons finder](https://a820-ecbticketfinder.nyc.gov/searchHome.action) |
+
+## NYC Open Data sets
+
+The same records are published as public datasets, which is what the app reads:
+
+| Dataset | Agency |
+|---|---|
+| [DOB Violations](https://data.cityofnewyork.us/d/3h2n-5cm9) | Department of Buildings |
+| [DOB ECB Violations](https://data.cityofnewyork.us/d/6bgk-3dad) | Department of Buildings |
+| [DOB Safety Violations](https://data.cityofnewyork.us/d/855j-jady) | Department of Buildings |
+| [DOB Complaints Received](https://data.cityofnewyork.us/d/eabe-havv) | Department of Buildings |
+| [Housing Maintenance Code Violations](https://data.cityofnewyork.us/d/wvxf-dwi5) | HPD |
+| [Housing Maintenance Code Complaints and Problems](https://data.cityofnewyork.us/d/ygpa-z7cr) | HPD |
+
+## What the classes mean
+
+HPD violations and DOB summonses use different scales.
+
+| Class | Meaning | Correction |
+|---|---|---|
+| HPD Class A | Non-hazardous | 90 days from service |
+| HPD Class B | Hazardous | 30 days from service |
+| HPD Class C | Immediately hazardous | 24 hours for most conditions |
+| DOB Class 1 summons | Immediately hazardous | Correct immediately and file a Certificate of Correction |
+
+Some HPD conditions have their own time limits, and DOB and OATH notices state the exact requirements for each case. Follow the violation notice itself.
+
+## Frequently asked questions
+
+### How do I look up violations for an NYC building?
+
+Search the address in BIS for DOB records, HPD Online for housing records and the OATH summons finder for ECB summonses. All are free.
+
+### What is a BIN?
+
+A Building Identification Number. It identifies one building, and it is more precise than an address when a lot has several buildings.
+
+### Why do DOB and HPD show different violations?
+
+They are separate agencies enforcing different codes. A building can have open records with one and none with the other, so check both.
+
+### Is there a way to get alerts for new violations?
+
+The free NYC DOB Violations iPhone app checks the city's open data for your buildings and notifies you about new violations, complaints and approaching deadlines.
+
+## Sources
+
+- [NYC HPD: Clear Violations](https://www.nyc.gov/site/hpd/services-and-information/clear-violations.page)
+- [NYC DOB: OATH Summonses](https://www.nyc.gov/site/buildings/safety/oath-summonses.page)
+- [NYC DOB: Certificate of Correction](https://www.nyc.gov/site/buildings/property-or-business-owner/certificate-of-correction.page)
+- [NYC Open Data](https://data.cityofnewyork.us/)
+
+---
+
+# NYC parking structure inspection deadlines
+
+> The current NYC parking structure filing window runs January 1, 2026 to December 31, 2027 for the Bronx, Queens and Staten Island. Manhattan and Brooklyn windows have already closed. Local Law 71 of 2024 moves parking structures to an assessment at least every four years after January 1, 2028, and the city has not yet published dates for that cycle.
+
+Source page: https://coderalert0.github.io/nyc-dob-violations-site/parking-structure-inspection-local-law-126.html
+Checked against city sources on November 4, 2026. Independent app. Not affiliated with or endorsed by the NYC Department of Buildings or the City of New York.
+
+## Filing windows
+
+| Location | Filing window |
+|---|---|
+| Manhattan Community Districts 1 to 7 | January 1, 2022 to December 31, 2023 |
+| Manhattan Community Districts 8 to 12, and all of Brooklyn | January 1, 2024 to December 31, 2025 |
+| Bronx, Queens and Staten Island | January 1, 2026 to December 31, 2027 |
+
+## The change to four years
+
+Local Law 126 of 2021 set a six-year cycle. Local Law 71 of 2024 increased the frequency: a condition assessment is required at least once by January 1, 2028, and at least once every four years after that.
+
+DOB's rule, 1 RCNY 103-13, still lists "every sixth year" filing windows, and DOB has not published a schedule past 2027. Treat any date after 2027 as unconfirmed until it does.
+
+## How filing works
+
+Owners must hire a New York State licensed Professional Engineer who is also a Qualified Parking Structure Inspector (QPSI). The report is due to DOB within 60 days of completing the assessment and is filed in DOB NOW: Safety.
+
+Unsafe conditions must be repaired within 90 days of filing the report. Once the work is finished, the owner must file an amended report within two weeks.
+
+## Penalties
+
+| Violation | Penalty |
+|---|---|
+| Late filing | $1,000 per month from the day after the filing deadline |
+| Failure to file | $5,000 per year, beginning one year after the end of the filing window |
+| Failure to correct an unsafe condition within 90 days | $1,000 per month until corrected |
+
+## Frequently asked questions
+
+### When is my parking structure report due?
+
+Parking structures in the Bronx, Queens and Staten Island are due by December 31, 2027. The Manhattan and Brooklyn windows closed on December 31, 2023 and December 31, 2025, depending on the Community District.
+
+### Is the parking structure cycle six years or four?
+
+Local Law 71 of 2024 requires an assessment at least every four years after January 1, 2028. DOB's rule has not yet published filing windows for that schedule.
+
+### How do I know if my garage is covered?
+
+DOB publishes a Parking Structure Inspections Map with a downloadable list. DOB says the list is based on city records and it is ultimately the owner's responsibility to determine whether the rule applies.
+
+## Sources
+
+- [NYC DOB: Parking Structures](https://www.nyc.gov/site/buildings/safety/parking-structure.page)
+- [1 RCNY 103-13: Periodic inspection of parking structures](https://www.nyc.gov/assets/buildings/rules/1_RCNY_103-13.pdf)
+- [1 RCNY 103-13: Amendment history](https://www.nyc.gov/assets/buildings/rules/1_RCNY_103-13_prom_details_date.pdf)
+- [NYC Administrative Code Article 323](https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCadmin/0-0-0-159169)
+
+---
+
+# NYC retaining wall inspection deadlines
+
+> NYC retaining walls that face a public right-of-way and reach ten feet or higher must be inspected every five years. In Cycle 3, reports are due December 31 of a year set by borough: Staten Island in 2026, Queens in 2027 and Brooklyn in 2028. The Bronx and Manhattan windows closed in 2024 and 2025.
+
+Source page: https://coderalert0.github.io/nyc-dob-violations-site/retaining-wall-inspection-local-law-37.html
+Checked against city sources on November 4, 2026. Independent app. Not affiliated with or endorsed by the NYC Department of Buildings or the City of New York.
+
+## Cycle 3 filing windows
+
+| Borough | Filing window |
+|---|---|
+| Bronx | January 1 to December 31, 2024 |
+| Manhattan | January 1 to December 31, 2025 |
+| Staten Island | January 1 to December 31, 2026 |
+| Queens | January 1 to December 31, 2027 |
+| Brooklyn | January 1 to December 31, 2028 |
+
+Cycle 3 runs from January 1, 2024 to December 31, 2028, and each borough has a one-year window.
+
+## Who needs the inspection
+
+The rule covers walls that face a public right-of-way with any portion extending ten feet or higher. A Qualified Retaining Wall Inspector (QRWI), a licensed structural engineer who has qualified with DOB, performs the inspection. The QRWI must submit the condition assessment report within 60 days of completing the inspection.
+
+## Penalties
+
+| Violation | Penalty |
+|---|---|
+| Failure to file | $5,000 per year after the end of the filing window |
+| Late filing | $1,000 per month from the day after the filing deadline |
+| Failure to correct an unsafe condition | $1,000 per month, pro-rated daily, until corrected |
+
+## Frequently asked questions
+
+### When is my retaining wall report due?
+
+By December 31 of your borough's year: Staten Island in 2026, Queens in 2027 and Brooklyn in 2028. The next Bronx and Manhattan windows follow five years after their 2024 and 2025 windows.
+
+### Does every retaining wall need an inspection?
+
+No. It applies to walls that face a public right-of-way and have a portion extending ten feet or higher.
+
+### Who can inspect a retaining wall?
+
+A Qualified Retaining Wall Inspector. DOB publishes the list of active QRWIs.
+
+## Sources
+
+- [NYC DOB: Retaining Wall](https://www.nyc.gov/site/buildings/safety/retaining-wall.page)
+- [1 RCNY 103-09: Periodic inspection of retaining walls](https://www.nyc.gov/assets/buildings/rules/1_RCNY_103-09.pdf)

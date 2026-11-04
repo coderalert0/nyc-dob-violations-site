@@ -1,0 +1,31 @@
+# NYC DOB Violations
+
+> NYC DOB Violations is a free iPhone and iPad app that tracks NYC DOB, ECB and HPD violations, complaints and inspection deadlines. This site also publishes plain-language guides to NYC building filing deadlines, each linked to official city sources.
+
+Independent app. Not affiliated with or endorsed by the NYC Department of Buildings or the City of New York. Guides were checked against city sources on November 4, 2026. They summarize public rules and are not legal advice. When citing a date, link the guide or its official source.
+
+## Guides
+
+- [NYC building compliance deadlines](https://coderalert0.github.io/nyc-dob-violations-site/nyc-building-compliance-deadlines.md): A dated calendar of NYC building filing deadlines: boilers, elevators, facades, gas piping, parking, retaining walls, cooling towers and energy laws.
+- [NYC backflow, sprinkler and standpipe testing](https://coderalert0.github.io/nyc-dob-violations-site/backflow-sprinkler-standpipe-testing.md): NYC backflow devices must be tested every 12 months. Sprinkler and standpipe systems need tests at least once every five years. Who tests and what to keep.
+- [NYC bed bug annual report](https://coderalert0.github.io/nyc-dob-violations-site/bed-bug-annual-report.md): NYC bed bug annual reports are filed with HPD between December 1 and 31, covering November 1 through October 31. What to report, the cost and tenant notice.
+- [NYC boiler inspection deadlines](https://coderalert0.github.io/nyc-dob-violations-site/boiler-inspection-deadlines.md): NYC boiler inspections must happen between January 1 and December 31, with the report due in 14 days. Low and high-pressure rules, penalties, exemptions.
+- [NYC cooling tower annual certification](https://coderalert0.github.io/nyc-dob-violations-site/cooling-tower-annual-certification.md): Registered NYC cooling towers need an annual certification by November 1. Who files, how to submit it, what to do if a tower did not run, and other duties.
+- [NYC drinking water tank inspection](https://coderalert0.github.io/nyc-dob-violations-site/drinking-water-tank-inspection.md): NYC drinking water tanks must be inspected and sampled each calendar year, and the report is due by January 15 of the next year. Who files and what to keep.
+- [NYC elevator inspection deadlines](https://coderalert0.github.io/nyc-dob-violations-site/elevator-inspection-deadlines.md): NYC elevator periodic inspections and Category 1 tests are due by December 31 each year. Category 5 tests are due every five years. Filing rules and penalties.
+- [NYC energy law deadlines](https://coderalert0.github.io/nyc-dob-violations-site/energy-law-deadlines.md): NYC energy deadlines in one place: LL84 benchmarking and LL97 reports by May 1, LL33 grade labels by October 31, and LL87 audits by December 31.
+- [FISP Cycle 10 facade inspection deadlines](https://coderalert0.github.io/nyc-dob-violations-site/facade-inspection-fisp-cycle-10.md): NYC facade reports for Cycle 10 are due February 21 of 2027, 2028 or 2029, set by the last digit of the tax block. Sub-cycles, ratings and penalties.
+- [Local Law 152 gas piping inspection schedule](https://coderalert0.github.io/nyc-dob-violations-site/gas-piping-inspection-local-law-152.md): NYC gas piping must be inspected every four years, on a schedule set by Community District. See LL152 due dates through 2031, filing steps and penalties.
+- [How to check NYC DOB violations by address](https://coderalert0.github.io/nyc-dob-violations-site/how-to-check-dob-violations.md): Check NYC building violations for free: DOB BIS, DOB NOW, HPD Online, OATH and NYC Open Data. What each shows, how HPD and ECB classes work, and how to track them.
+- [NYC parking structure inspection deadlines](https://coderalert0.github.io/nyc-dob-violations-site/parking-structure-inspection-local-law-126.md): NYC parking structure reports in the Bronx, Queens and Staten Island are due December 31, 2027. Local Law 126 filing windows and the move to a four-year cycle.
+- [NYC retaining wall inspection deadlines](https://coderalert0.github.io/nyc-dob-violations-site/retaining-wall-inspection-local-law-37.md): NYC retaining walls ten feet or higher facing a public right-of-way need inspection every five years. Cycle 3 deadlines by borough, filing rules and penalties.
+
+## App
+
+- [App Store listing](https://apps.apple.com/us/app/nyc-dob-violations/id6761253317): Free download for iPhone and iPad, iOS 17 or later
+- [Support](https://coderalert0.github.io/nyc-dob-violations-site/support.html): How to get help
+- [Privacy Policy](https://coderalert0.github.io/nyc-dob-violations-site/privacy-policy.html): How the app handles data
+
+## Optional
+
+- [Full text of every guide](https://coderalert0.github.io/nyc-dob-violations-site/llms-full.txt): All guides in one Markdown file
