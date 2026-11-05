@@ -47,8 +47,10 @@ def parse(path):
 
 
 def render(text):
-    out = markdown.markdown(text, extensions=["tables", "sane_lists"])
-    return out.replace("<table>", '<div class="table-wrap"><table>').replace("</table>", "</table></div>")
+    """Returns the HTML and the h2 headings, for the page's side rail."""
+    md = markdown.Markdown(extensions=["tables", "sane_lists", "toc"], extension_configs={"toc": {"toc_depth": "2"}})
+    out = md.convert(text).replace("<table>", '<div class="table-wrap"><table>').replace("</table>", "</table></div>")
+    return out, [(t["id"], t["name"]) for t in md.toc_tokens]
 
 
 def plain(text):
@@ -73,7 +75,7 @@ def page(slug, title, description, body, *, schema=(), kind="article", robots="i
 <meta name="description" content="{e(description)}">
 <meta name="robots" content="{robots}">
 <link rel="canonical" href="{url}">{alternate}
-<meta name="theme-color" content="#002878">
+<meta name="theme-color" content="#ffffff">
 <meta name="apple-itunes-app" content="app-id=6761253317">
 <meta property="og:type" content="{kind}">
 <meta property="og:site_name" content="{NAME}">
@@ -92,7 +94,7 @@ def page(slug, title, description, body, *, schema=(), kind="article", robots="i
 <p class="notice">{NOTICE}</p>
 <header class="site">
   <div class="wrap bar">
-    <a class="brand" href="{root or './'}"><img src="{root}assets/icon-180.png" alt="" width="36" height="36">{NAME}</a>
+    <a class="brand" href="{root or './'}"><img src="{root}assets/icon-180.png" alt="" width="32" height="32">{NAME}</a>
     <nav aria-label="Main">
       <a href="{root}{HUB}.html">Deadlines</a>
       <a href="{root}how-to-check-dob-violations.html">Check violations</a>
@@ -105,10 +107,14 @@ def page(slug, title, description, body, *, schema=(), kind="article", robots="i
 {body}
 </main>
 <footer class="site">
-  <div class="wrap">
-    <nav aria-label="Guides">{FOOTER_LINKS.replace('href="', f'href="{root}')}</nav>
-    <p>{NOTICE} Deadlines summarize public city sources and are not legal advice. Confirm with the linked official source before you file.</p>
-    <p><a href="{root}support.html">Support</a> <a href="{root}privacy-policy.html">Privacy Policy</a> <a href="{root}llms.txt">llms.txt</a></p>
+  <div class="wrap foot">
+    <div>
+      <p class="foot-name">{NAME}</p>
+      <p>{NOTICE}</p>
+      <p>Deadlines summarize public city sources and are not legal advice. Confirm with the linked official source before you file.</p>
+    </div>
+    <nav aria-label="Guides"><p class="foot-title">Guides</p><div class="foot-links">{FOOTER_LINKS.replace('href="', f'href="{root}')}</div></nav>
+    <nav aria-label="App"><p class="foot-title">App</p><a href="{APP}">App Store</a><a href="{root}support.html">Support</a><a href="{root}privacy-policy.html">Privacy Policy</a><a href="{root}llms.txt">llms.txt</a></nav>
   </div>
 </footer>
 </body>
@@ -121,13 +127,17 @@ def guide_page(g, by_slug):
     sources = "".join(f'<li><a href="{html.escape(u)}" rel="noopener">{html.escape(t)}</a></li>' for t, u in g["sources"])
     related = "".join(f'<li><a href="{s}.html">{html.escape(by_slug[s]["h1"])}</a></li>' for s in g["related"])
     url = f'{BASE}{g["slug"]}.html'
-    body = f"""<div class="wrap page">
-<nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> <span aria-hidden="true">/</span> {"" if g["slug"] == HUB else f'<a href="{HUB}.html">Compliance calendar</a> <span aria-hidden="true">/</span> '}<span>{html.escape(g["nav"])}</span></nav>
+    content, headings = render(body_md)
+    toc = "".join(f'<li><a href="#{i}">{html.escape(n)}</a></li>' for i, n in headings)
+    trail = "" if g["slug"] == HUB else f'<a href="{HUB}.html">Compliance calendar</a> <span aria-hidden="true">/</span> '
+    body = f"""<div class="wrap guide">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> <span aria-hidden="true">/</span> {trail}<span>{html.escape(g["nav"])}</span></nav>
+<div class="guide-grid">
 <article>
 <h1>{html.escape(g["h1"])}</h1>
 <p class="updated">Checked against city sources on <time datetime="{UPDATED}">{UPDATED_LONG}</time></p>
 <div class="answer"><h2>Short answer</h2><p>{html.escape(g["answer"])}</p></div>
-{render(body_md)}
+{content}
 <aside class="app-cta">
   <div><h2>Get reminders for your buildings</h2><p>The free {NAME} app tracks these deadlines, plus violations and complaints, for every building you add.</p></div>
   <a class="badge" href="{APP}"><img src="assets/app-store-badge.svg" alt="Download on the App Store" width="135" height="45"></a>
@@ -135,6 +145,11 @@ def guide_page(g, by_slug):
 <section class="sources"><h2>Official sources</h2><ul>{sources}</ul></section>
 <section class="related"><h2>Related guides</h2><ul>{related}</ul></section>
 </article>
+<aside class="rail">
+  <nav aria-label="On this page"><p class="rail-title">On this page</p><ul>{toc}</ul></nav>
+  <a class="rail-app" href="{APP}"><img src="assets/icon-180.png" alt="" width="44" height="44"><span><strong>Get reminders</strong>Free on the App Store</span></a>
+</aside>
+</div>
 </div>"""
     crumbs = [("Home", BASE)] + ([] if g["slug"] == HUB else [("Compliance calendar", f"{BASE}{HUB}.html")]) + [(g["nav"], url)]
     schema = [
@@ -174,8 +189,11 @@ for g in guides:
 
 # Home
 hub_table = re.search(r"\| Deadline \|.*?(?=\n\n)", by_slug[HUB]["body"], re.S).group(0)
-upcoming = render("\n".join(hub_table.splitlines()[:9]))
-cards = "".join(f'<li><a href="{g["slug"]}.html"><strong>{html.escape(g["h1"])}</strong></a></li>' for g in guides)
+rows = re.findall(r"^\| (.+?) \| \[(.+?)\]\((.+?)\) \| (.+?) \|$", hub_table, re.M)[:7]
+upcoming = '<ol class="timeline">' + "".join(
+    f'<li><span class="when">{html.escape(when)}</span><span class="what"><a href="{href}">{html.escape(label)}</a><small>{html.escape(who)}</small></span></li>'
+    for when, label, href, who in rows) + "</ol>"
+cards = "".join(f'<li><a href="{g["slug"]}.html">{html.escape(g["nav"])}</a></li>' for g in guides if g["slug"] != HUB)
 home = (PAGES / "home.html").read_text().replace("{APP}", APP).replace("{UPDATED_LONG}", UPDATED_LONG).replace("{UPDATED}", UPDATED)
 home = home.replace("{UPCOMING}", upcoming).replace("{GUIDES}", f'<ul class="guides">{cards}</ul>')
 home_description = "Free iPhone and iPad app that tracks NYC DOB, ECB and HPD violations, complaints and inspection deadlines, with guides to every NYC building filing date."
@@ -197,10 +215,10 @@ for slug, title, description in [
     ("privacy-policy", f"Privacy Policy - {NAME}", f"How the {NAME} app handles your data. No account, no analytics, and your records stay on your device."),
 ]:
     body = (PAGES / f"{slug}.body.html").read_text()
-    (ROOT / f"{slug}.html").write_text(page(slug, title, description, f'<div class="wrap page"><article>{body}</article></div>'))
+    (ROOT / f"{slug}.html").write_text(page(slug, title, description, f'<div class="wrap reading"><article>{body}</article></div>'))
 
 # 404 is served at any depth, so its links are absolute.
-missing = '<div class="wrap page"><h1>Page not found</h1><p>That page has moved or never existed.</p><p><a href="/nyc-dob-violations-site/nyc-building-compliance-deadlines.html">See the NYC compliance calendar</a></p></div>'
+missing = '<div class="wrap reading"><h1>Page not found</h1><p>That page has moved or never existed.</p><p><a href="/nyc-dob-violations-site/nyc-building-compliance-deadlines.html">See the NYC compliance calendar</a></p></div>'
 (ROOT / "404.html").write_text(page("404", f"Page not found - {NAME}", "This page could not be found. See the NYC building compliance calendar and guides instead.", missing, robots="noindex", root="/nyc-dob-violations-site/"))
 
 # Sitemap

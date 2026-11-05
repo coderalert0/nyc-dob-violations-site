@@ -1,44 +1,50 @@
 <section class="hero">
   <div class="wrap hero-grid">
-    <div>
-      <p class="eyebrow">For NYC owners, managers and building professionals</p>
+    <div class="hero-copy">
       <h1>Track NYC building violations and inspection deadlines</h1>
-      <p class="lede">NYC DOB Violations is a free iPhone and iPad app that follows your buildings' DOB, ECB and HPD violations, complaints and inspection deadlines, and alerts you when something changes.</p>
-      <a class="badge" href="{APP}"><img src="assets/app-store-badge.svg" alt="Download on the App Store" width="150" height="50"></a>
-      <p class="hero-link"><a href="nyc-building-compliance-deadlines.html">See the NYC compliance calendar</a></p>
+      <p class="lede">A free iPhone and iPad app that follows your buildings' DOB, ECB and HPD records, and tells you when something changes.</p>
+      <div class="hero-actions">
+        <a class="badge" href="{APP}"><img src="assets/app-store-badge.svg" alt="Download on the App Store" width="150" height="50"></a>
+        <a class="more" href="nyc-building-compliance-deadlines.html">See the compliance calendar</a>
+      </div>
+      <ul class="facts"><li>Free</li><li>No account needed</li><li>Public NYC Open Data</li></ul>
     </div>
-    <img class="phone" src="assets/app-1.webp" alt="NYC DOB Violations app showing a building's open violations and inspections" width="300" height="639">
+    <img class="phone" src="assets/app-1.webp" alt="NYC DOB Violations app dashboard showing open violations, complaints and overdue inspections" width="340" height="702">
   </div>
 </section>
 
-<div class="wrap page">
-  <section>
+<section class="wrap split">
+  <div>
     <h2>Next NYC building deadlines</h2>
-    <p>Checked against city sources on <time datetime="{UPDATED}">{UPDATED_LONG}</time>.</p>
-    {UPCOMING}
-    <p><a href="nyc-building-compliance-deadlines.html">See the full calendar through 2029</a></p>
-  </section>
+    <p class="note">Checked against city sources on <time datetime="{UPDATED}">{UPDATED_LONG}</time>.</p>
+    <a class="more" href="nyc-building-compliance-deadlines.html">Full calendar through 2029</a>
+  </div>
+  {UPCOMING}
+</section>
 
-  <section>
-    <h2>What the app tracks</h2>
-    <dl class="features">
-      <div><dt>Violations</dt><dd>Open and closed DOB, DOB Safety, DOB ECB and HPD violations, with severity, dates and descriptions.</dd></div>
-      <div><dt>Complaints</dt><dd>DOB and HPD complaints, with categories, inspection dates and resolution status.</dd></div>
-      <div><dt>Inspection deadlines</dt><dd>Due dates for elevators, boilers, cooling towers, facades, drinking water tanks and more.</dd></div>
-      <div><dt>Alerts</dt><dd>Notifications for new violations and complaints, and when deadlines are approaching.</dd></div>
-      <div><dt>Portfolios</dt><dd>Organize buildings into portfolios and see what needs attention on one dashboard.</dd></div>
-      <div><dt>Records</dt><dd>Attach photos and PDFs to any record, and keep a status history with comments.</dd></div>
-    </dl>
-  </section>
+<section class="wrap block">
+  <h2>What the app tracks</h2>
+  <dl class="features">
+    <div><dt>Violations</dt><dd>Open and closed DOB, DOB Safety, DOB ECB and HPD violations, with severity, dates and descriptions.</dd></div>
+    <div><dt>Complaints</dt><dd>DOB and HPD complaints, with categories, inspection dates and resolution status.</dd></div>
+    <div><dt>Inspection deadlines</dt><dd>Due dates for elevators, boilers, cooling towers, facades, drinking water tanks and more.</dd></div>
+    <div><dt>Alerts</dt><dd>Notifications for new violations and complaints, and when deadlines are approaching.</dd></div>
+    <div><dt>Portfolios</dt><dd>Organize buildings into portfolios and see what needs attention on one dashboard.</dd></div>
+    <div><dt>Records</dt><dd>Attach photos and PDFs to any record, and keep a status history with comments.</dd></div>
+  </dl>
+</section>
 
-  <section>
+<section class="wrap split">
+  <div>
     <h2>NYC compliance guides</h2>
-    <p>Plain-language guides to each requirement, with the deadline first and a link to every official source.</p>
-    {GUIDES}
-  </section>
+    <p class="note">Plain-language guides with the deadline first and a link to every official source.</p>
+  </div>
+  {GUIDES}
+</section>
 
-  <section class="faq">
-    <h2>Frequently asked questions</h2>
+<section class="wrap split faq">
+  <h2>Frequently asked questions</h2>
+  <div>
     <h3>Is the NYC DOB Violations app free?</h3>
     <p>Yes. It is free on the App Store, and it does not require an account.</p>
     <h3>Is this an official NYC Department of Buildings app?</h3>
@@ -47,5 +53,15 @@
     <p>From public NYC Open Data sets published by the Department of Buildings and the Department of Housing Preservation and Development. Your building list stays on your device.</p>
     <h3>What devices does it run on?</h3>
     <p>iPhone and iPad running iOS 17 or later.</p>
-  </section>
-</div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap band-inner">
+    <div>
+      <h2>Stop tracking deadlines by hand</h2>
+      <p>Add a building and see its violations, complaints and upcoming inspections in one place.</p>
+    </div>
+    <a class="badge" href="{APP}"><img src="assets/app-store-badge.svg" alt="Download on the App Store" width="150" height="50"></a>
+  </div>
+</section>
