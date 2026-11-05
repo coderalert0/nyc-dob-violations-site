@@ -60,7 +60,8 @@ class Page(HTMLParser):
 
 outside = set()
 sitemap = {e.text for e in ET.parse(ROOT / "sitemap.xml").getroot().iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")}
-pages = sorted(ROOT.glob("*.html"))
+# Search Console proves ownership with this file, so it stays in place and is not a page.
+pages = sorted(p for p in ROOT.glob("*.html") if not p.name.startswith("google"))
 
 for path in pages:
     text = path.read_text()
