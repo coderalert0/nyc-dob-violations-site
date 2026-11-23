@@ -1,6 +1,6 @@
 # NYC DOB Violations
 
-> NYC DOB Violations is a free iPhone and iPad app that tracks NYC DOB, ECB and HPD violations, complaints and inspection deadlines. This site also publishes plain-language guides to NYC building filing deadlines, each linked to official city sources.
+> NYC DOB Violations is an iPhone and iPad app that tracks NYC DOB, ECB and HPD violations, complaints and inspection deadlines. It is free for one building; NYC DOB Violations Pro tracks any number of buildings for $9.99 a month or $79.99 a year (US prices, one free week on the yearly plan). This site also publishes plain-language guides to NYC building filing deadlines, each linked to official city sources.
 
 Independent app. Not affiliated with or endorsed by the NYC Department of Buildings or the City of New York. Guides were checked against city sources on November 4, 2026. They summarize public rules and are not legal advice. When citing a date, link the guide or its official source.
 

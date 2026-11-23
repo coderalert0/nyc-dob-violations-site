@@ -56,7 +56,7 @@ They are separate agencies enforcing different codes. A building can have open r
 
 ### Is there a way to get alerts for new violations?
 
-The free NYC DOB Violations iPhone app checks the city's open data for your buildings and notifies you about new violations, complaints and approaching deadlines.
+The NYC DOB Violations iPhone app (free for one building) checks the city's open data for your buildings and notifies you about new violations, complaints and approaching deadlines.
 
 ## Sources
 

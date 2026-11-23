@@ -139,7 +139,7 @@ def guide_page(g, by_slug):
 <div class="answer"><h2>Short answer</h2><p>{html.escape(g["answer"])}</p></div>
 {content}
 <aside class="app-cta">
-  <div><h2>Get reminders for your buildings</h2><p>The free {NAME} app tracks these deadlines, plus violations and complaints, for every building you add.</p></div>
+  <div><h2>Get reminders for your buildings</h2><p>The {NAME} app tracks these deadlines, plus violations and complaints, for your buildings. One building is free.</p></div>
   <a class="badge" href="{APP}"><img src="assets/app-store-badge.svg" alt="Download on the App Store" width="135" height="45"></a>
 </aside>
 <section class="sources"><h2>Official sources</h2><ul>{sources}</ul></section>
@@ -147,7 +147,7 @@ def guide_page(g, by_slug):
 </article>
 <aside class="rail">
   <nav aria-label="On this page"><p class="rail-title">On this page</p><ul>{toc}</ul></nav>
-  <a class="rail-app" href="{APP}"><img src="assets/icon-180.png" alt="" width="44" height="44"><span><strong>Get reminders</strong>Free on the App Store</span></a>
+  <a class="rail-app" href="{APP}"><img src="assets/icon-180.png" alt="" width="44" height="44"><span><strong>Get reminders</strong>Free for one building</span></a>
 </aside>
 </div>
 </div>"""
@@ -196,7 +196,7 @@ upcoming = '<ol class="timeline">' + "".join(
 cards = "".join(f'<li><a href="{g["slug"]}.html">{html.escape(g["nav"])}</a></li>' for g in guides if g["slug"] != HUB)
 home = (PAGES / "home.html").read_text().replace("{APP}", APP).replace("{UPDATED_LONG}", UPDATED_LONG).replace("{UPDATED}", UPDATED)
 home = home.replace("{UPCOMING}", upcoming).replace("{GUIDES}", f'<ul class="guides">{cards}</ul>')
-home_description = "Free iPhone and iPad app that tracks NYC DOB, ECB and HPD violations, complaints and inspection deadlines, with guides to every NYC building filing date."
+home_description = "iPhone and iPad app that tracks NYC DOB, ECB and HPD violations, complaints and inspection deadlines, free for one building, with guides to every NYC building filing date."
 home_schema = [
     {"@context": "https://schema.org", "@type": "WebSite", "name": NAME, "url": BASE, "description": home_description, "publisher": PUBLISHER, "inLanguage": "en-US"},
     {"@context": "https://schema.org", "@type": "MobileApplication", "name": NAME, "url": BASE, "installUrl": APP, "downloadUrl": APP,
@@ -230,7 +230,7 @@ entries = "".join(f"  <url><loc>{u}</loc><lastmod>{UPDATED}</lastmod><priority>{
 links = "\n".join(f'- [{g["h1"]}]({BASE}{g["slug"]}.md): {g["description"]}' for g in guides)
 (ROOT / "llms.txt").write_text(f"""# {NAME}
 
-> {NAME} is a free iPhone and iPad app that tracks NYC DOB, ECB and HPD violations, complaints and inspection deadlines. This site also publishes plain-language guides to NYC building filing deadlines, each linked to official city sources.
+> {NAME} is an iPhone and iPad app that tracks NYC DOB, ECB and HPD violations, complaints and inspection deadlines. It is free for one building; {NAME} Pro tracks any number of buildings for $9.99 a month or $79.99 a year (US prices, one free week on the yearly plan). This site also publishes plain-language guides to NYC building filing deadlines, each linked to official city sources.
 
 {NOTICE} Guides were checked against city sources on {UPDATED_LONG}. They summarize public rules and are not legal advice. When citing a date, link the guide or its official source.
 
